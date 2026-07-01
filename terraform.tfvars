@@ -1,3 +1,6 @@
-project_id = "TU_ID_DEL_PROYECTO_GCP"
-region     = "us-central1"
-zone       = "us-central1-a"
+project_id = "proyecto-terraform-gcp"
+region     = "us-east1"
+zone       = "us-east1-b"
+
+peso_principal    = 50
+peso_contingencia = 50

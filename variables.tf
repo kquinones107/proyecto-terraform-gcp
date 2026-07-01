@@ -14,3 +14,15 @@ variable "zone" {
   type        = string
   default     = "us-central1-a"
 }
+
+variable "peso_principal" {
+  description = "Peso de tráfico enviado al servicio principal."
+  type        = number
+  default     = 100
+}
+
+variable "peso_contingencia" {
+  description = "Peso de tráfico enviado al servicio de contingencia."
+  type        = number
+  default     = 0
+}
